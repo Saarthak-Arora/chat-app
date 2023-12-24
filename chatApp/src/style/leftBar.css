@@ -1,0 +1,119 @@
+.sidebarContainer {
+    display: inline-block;
+    height: 100%;
+    width: 26%;
+    position: relative;
+    border: 1px solid gray;
+  }
+  
+  .lnav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .searchbar {
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+  }
+  
+  .search {
+    position: relative;
+    width: 100%;
+    border: none;
+    margin-left: 2px;
+  }
+  
+  .search:focus {
+    outline: none;
+  }
+  
+  .round-background {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+ 
+.avatar:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.round-background:hover {
+    background-color: #ccc;
+  }
+
+.callcontainer{
+    background-color: aqua;
+    position: relative;
+    height: calc(88% + 2px);
+    overflow: auto;
+    scrollbar-color: white;
+    scrollbar-width: thin;
+}
+
+.ccardcontianer{
+    padding-left: 10px;
+    display: flex;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.dpdiv{
+   height: 50px; 
+}
+
+.dp{
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+}
+
+.msgdiv{
+    margin-left: 15%;
+    height: 50px; 
+    width: 80%;
+    display:flex ;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.msg , .msgtime {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin-top:2px;
+}
+
+.msgtime{
+    font-size: small;
+}
+
+.nmsg{
+    background-color: lightgreen;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+ 
